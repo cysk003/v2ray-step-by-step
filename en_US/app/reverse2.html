@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Reverse Proxy II | V2Ray Beginner&#39;s Guide</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Step-by-step guide for first-timers' using V2Ray.">
+    
+    <link rel="preload" href="/assets/css/0.styles.60d098b4.css" as="style"><link rel="preload" href="/assets/js/app.d424c134.js" as="script"><link rel="preload" href="/assets/js/2.94c2ff94.js" as="script"><link rel="preload" href="/assets/js/16.cc88c7bf.js" as="script"><link rel="prefetch" href="/assets/js/10.ba5bbff7.js"><link rel="prefetch" href="/assets/js/100.7b4dc8b6.js"><link rel="prefetch" href="/assets/js/101.2ba53074.js"><link rel="prefetch" href="/assets/js/102.029107d2.js"><link rel="prefetch" href="/assets/js/103.dde7d9bc.js"><link rel="prefetch" href="/assets/js/104.4c28f767.js"><link rel="prefetch" href="/assets/js/11.4fd42f34.js"><link rel="prefetch" href="/assets/js/12.2edda02d.js"><link rel="prefetch" href="/assets/js/13.0b42eea8.js"><link rel="prefetch" href="/assets/js/14.813b9329.js"><link rel="prefetch" href="/assets/js/15.24a402de.js"><link rel="prefetch" href="/assets/js/17.d660693f.js"><link rel="prefetch" href="/assets/js/18.63c745eb.js"><link rel="prefetch" href="/assets/js/19.66a782a9.js"><link rel="prefetch" href="/assets/js/20.1db3cc5f.js"><link rel="prefetch" href="/assets/js/21.07550733.js"><link rel="prefetch" href="/assets/js/22.94cbb642.js"><link rel="prefetch" href="/assets/js/23.1210a9a3.js"><link rel="prefetch" href="/assets/js/24.ce4f5415.js"><link rel="prefetch" href="/assets/js/25.20f0ae0b.js"><link rel="prefetch" href="/assets/js/26.c69ad1c6.js"><link rel="prefetch" href="/assets/js/27.04f25fea.js"><link rel="prefetch" href="/assets/js/28.5dc7b231.js"><link rel="prefetch" href="/assets/js/29.e7e9ff61.js"><link rel="prefetch" href="/assets/js/3.fe3dfd28.js"><link rel="prefetch" href="/assets/js/30.0eb96371.js"><link rel="prefetch" href="/assets/js/31.5fc5a99b.js"><link rel="prefetch" href="/assets/js/32.c0e79c52.js"><link rel="prefetch" href="/assets/js/33.a0785df9.js"><link rel="prefetch" href="/assets/js/34.2c6bcd3b.js"><link rel="prefetch" href="/assets/js/35.103699c9.js"><link rel="prefetch" href="/assets/js/36.ef31f920.js"><link rel="prefetch" href="/assets/js/37.ed8ad730.js"><link rel="prefetch" href="/assets/js/38.35f2264c.js"><link rel="prefetch" href="/assets/js/39.31c83632.js"><link rel="prefetch" href="/assets/js/4.0d059929.js"><link rel="prefetch" href="/assets/js/40.68b119cc.js"><link rel="prefetch" href="/assets/js/41.f368e42e.js"><link rel="prefetch" href="/assets/js/42.be75f3db.js"><link rel="prefetch" href="/assets/js/43.a3bf1a5d.js"><link rel="prefetch" href="/assets/js/44.4877b2cd.js"><link rel="prefetch" href="/assets/js/45.e977f6c1.js"><link rel="prefetch" href="/assets/js/46.ef9dce24.js"><link rel="prefetch" href="/assets/js/47.2c0496ac.js"><link rel="prefetch" href="/assets/js/48.e6c3fbc7.js"><link rel="prefetch" href="/assets/js/49.9a607884.js"><link rel="prefetch" href="/assets/js/5.c661e2c7.js"><link rel="prefetch" href="/assets/js/50.7c8c31bb.js"><link rel="prefetch" href="/assets/js/51.9db92791.js"><link rel="prefetch" href="/assets/js/52.be46c9a1.js"><link rel="prefetch" href="/assets/js/53.ad70760c.js"><link rel="prefetch" href="/assets/js/54.58406afc.js"><link rel="prefetch" href="/assets/js/55.8fc6d952.js"><link rel="prefetch" href="/assets/js/56.a3dc1453.js"><link rel="prefetch" href="/assets/js/57.b8adad38.js"><link rel="prefetch" href="/assets/js/58.35fcf54d.js"><link rel="prefetch" href="/assets/js/59.00172969.js"><link rel="prefetch" href="/assets/js/6.0da6e1ef.js"><link rel="prefetch" href="/assets/js/60.85e3bda7.js"><link rel="prefetch" href="/assets/js/61.8256d68a.js"><link rel="prefetch" href="/assets/js/62.f7d2e78e.js"><link rel="prefetch" href="/assets/js/63.35c586c9.js"><link rel="prefetch" href="/assets/js/64.40c6b63d.js"><link rel="prefetch" href="/assets/js/65.6679f821.js"><link rel="prefetch" href="/assets/js/66.24e3cd67.js"><link rel="prefetch" href="/assets/js/67.f17ddd9b.js"><link rel="prefetch" href="/assets/js/68.632b2905.js"><link rel="prefetch" href="/assets/js/69.6b13f50f.js"><link rel="prefetch" href="/assets/js/7.9ca5356e.js"><link rel="prefetch" href="/assets/js/70.ed1b5ff2.js"><link rel="prefetch" href="/assets/js/71.62439318.js"><link rel="prefetch" href="/assets/js/72.bb6351ab.js"><link rel="prefetch" href="/assets/js/73.cde6c55f.js"><link rel="prefetch" href="/assets/js/74.a6999b9c.js"><link rel="prefetch" href="/assets/js/75.6e5e8a7b.js"><link rel="prefetch" href="/assets/js/76.45e4e9dd.js"><link rel="prefetch" href="/assets/js/77.5a253c26.js"><link rel="prefetch" href="/assets/js/78.e6d3b5d3.js"><link rel="prefetch" href="/assets/js/79.9f955f0d.js"><link rel="prefetch" href="/assets/js/8.549cde52.js"><link rel="prefetch" href="/assets/js/80.de11d87e.js"><link rel="prefetch" href="/assets/js/81.9a0bf049.js"><link rel="prefetch" href="/assets/js/82.983ca5f2.js"><link rel="prefetch" href="/assets/js/83.2e08c36b.js"><link rel="prefetch" href="/assets/js/84.6f4f0024.js"><link rel="prefetch" href="/assets/js/85.f5e59d9b.js"><link rel="prefetch" href="/assets/js/86.125fb1ae.js"><link rel="prefetch" href="/assets/js/87.bb35368f.js"><link rel="prefetch" href="/assets/js/88.264399d1.js"><link rel="prefetch" href="/assets/js/89.459ed174.js"><link rel="prefetch" href="/assets/js/9.c34dd955.js"><link rel="prefetch" href="/assets/js/90.8e44dde0.js"><link rel="prefetch" href="/assets/js/91.364c294b.js"><link rel="prefetch" href="/assets/js/92.c180b9f6.js"><link rel="prefetch" href="/assets/js/93.93482186.js"><link rel="prefetch" href="/assets/js/94.9ee1dd14.js"><link rel="prefetch" href="/assets/js/95.39e3768a.js"><link rel="prefetch" href="/assets/js/96.f4436d0c.js"><link rel="prefetch" href="/assets/js/97.3547871b.js"><link rel="prefetch" href="/assets/js/98.d9bbab0e.js"><link rel="prefetch" href="/assets/js/99.7baad389.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.60d098b4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/en_US/" class="home-link router-link-active"><!----> <span class="site-name">V2Ray Beginner's Guide</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="https://v2fly.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Official Guide
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/app/reverse2.html" class="nav-link">
+  zh-CN
+</a></li><li class="dropdown-item"><!----> <a href="/en_US/app/reverse2.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  en-US
+</a></li></ul></div></div> <a href="https://github.com/v2fly/v2ray-step-by-step" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="https://v2fly.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Official Guide
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/app/reverse2.html" class="nav-link">
+  zh-CN
+</a></li><li class="dropdown-item"><!----> <a href="/en_US/app/reverse2.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  en-US
+</a></li></ul></div></div> <a href="https://github.com/v2fly/v2ray-step-by-step" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Preface</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/en_US/" aria-current="page" class="sidebar-link">Guide to V2Ray configuration</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/en_US/prep/prep" class="sidebar-heading clickable"><span>Before start</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/en_US/basics/basics" class="sidebar-heading clickable"><span>Basics</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/en_US/advanced/advanced" class="sidebar-heading clickable"><span>Advanced</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/en_US/app/app" class="sidebar-heading clickable open"><span>Practical</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/en_US/app/transparent_proxy.html" class="sidebar-link">Transparent Proxy</a></li><li><a href="/en_US/app/reverse.html" class="sidebar-link">Reverse Proxy I</a></li><li><a href="/en_US/app/reverse2.html" aria-current="page" class="active sidebar-link">Reverse Proxy II</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/en_US/app/reverse2.html#mechanism" class="sidebar-link">Mechanism</a></li><li class="sidebar-sub-header"><a href="/en_US/app/reverse2.html#configuration-example" class="sidebar-link">Configuration Example</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/en_US/app/reverse2.html#configuration-of-node-a" class="sidebar-link">Configuration of Node A</a></li><li class="sidebar-sub-header"><a href="/en_US/app/reverse2.html#configuration-of-node-b" class="sidebar-link">Configuration of Node B</a></li><li class="sidebar-sub-header"><a href="/en_US/app/reverse2.html#configuration-of-node-c" class="sidebar-link">Configuration of Node C</a></li></ul></li><li class="sidebar-sub-header"><a href="/en_US/app/reverse2.html#access" class="sidebar-link">Access</a></li></ul></li><li><a href="/en_US/app/parent.html" class="sidebar-link">Forward Proxy</a></li><li><a href="/en_US/app/balance.html" class="sidebar-link">Load Balancing</a></li><li><a href="/en_US/app/docker-deploy-v2ray.html" class="sidebar-link">Deploying V2Ray by Docker</a></li><li><a href="/en_US/app/benchmark.html" class="sidebar-link">Benchmark</a></li><li><a href="/en_US/app/optimization.html" class="sidebar-link">Memory optimization</a></li><li><a href="/en_US/app/tinc_proxy.html" class="sidebar-link">Mount the Tinc LAN node</a></li><li><a href="/en_US/app/android_without_root_use_v2ray.html" class="sidebar-link">Android Root-free running core</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/en_US/routing/routing" class="sidebar-heading clickable"><span>Routing</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="reverse-proxy-ii"><a href="#reverse-proxy-ii" class="header-anchor">#</a> Reverse Proxy II</h1> <p>In the previous section, we talked about reverse proxy. We use a reverse proxy to access intranet services (e.g. private network drives) that do not have public IP. But this reverse proxy has a limitation, that is, only a limited port mapping can be assigned. For example, in the previous section, we mapped the 80 ports of the private network disk. If I have a lot of devices in my home, I run a lot of software (such as private network disk, NAS, personal blog, code warehouse, etc.), the reverse of the previous section. Agents can also be used, but there is a distribution port mapping, which is not very elegant, and the configuration is annoying to write. This section introduces another way to configure the reverse proxy, solves the problem just mentioned, and has a stronger universality, which is more practical for the majority of users.</p> <p>The example above may not be easy to understand; we can easily understand with a few examples of actual usage scenarios. The reverse proxy described in this section can be implemented:</p> <ul><li>For overseas Chinese such as international students, sometimes they want to watch Chinese videos or listen to Chinese music. Because of copyright reasons, they can't directly watch on Chinese mainland websites. It is too expensive to buy a Chinese mainland VPS. If you build a V2Ray in your home in mainland China and buy an overseas VPS, you can use the reverse proxy to watch videos that the mainland can watch.</li> <li>For university students, you can use the reverse proxy to access campus network resources outside the university, download papers, etc.</li> <li>For programmers, you can view the company's code repository at home.</li> <li>For home users, you can watch home monitoring from the outside.</li></ul> <h2 id="mechanism"><a href="#mechanism" class="header-anchor">#</a> Mechanism</h2> <p>The principle is similar to the reverse proxy in the previous section. The difference is that B's dokodemo-door is changed to VMess, and then C needs to install V2Ray to connect B's VMess. The final result is that C connects to B through V2Ray, and B reverses proxy to A, which is equivalent to C using V2Ray to access the Internet through A proxy.</p> <p><img src="/assets/img/block_of_reverse-vmess.cd11ba0c.png" alt=""></p> <p>(** Errata: The inbound of C in the figure should be Socks**)</p> <h2 id="configuration-example"><a href="#configuration-example" class="header-anchor">#</a> Configuration Example</h2> <p>The specific configuration is given below, please understand the description together with the previous principle section.</p> <h3 id="configuration-of-node-a"><a href="#configuration-of-node-a" class="header-anchor">#</a> Configuration of Node A</h3> <p>The configuration of A is the same from the previous section.</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>  
+  <span class="token property">&quot;reverse&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span> 
+    <span class="token comment">// This is the reverse proxy setting for A, which must have the object of the following bridge</span>
+    <span class="token property">&quot;bridges&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  
+      <span class="token punctuation">{</span>  
+        <span class="token property">&quot;tag&quot;</span><span class="token operator">:</span><span class="token string">&quot;bridge&quot;</span><span class="token punctuation">,</span> <span class="token comment">// The reverse proxy tag of A, used in routing</span>
+        <span class="token property">&quot;domain&quot;</span><span class="token operator">:</span><span class="token string">&quot;private.cloud.com&quot;</span> <span class="token comment">// The domain name of the reverse proxy communication between A and B can be self-assigned. It may not be bought from the domain registry service provider, but it must be consistent with the reverse configured domain name in B below.</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;outbounds&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>  
+      <span class="token comment">// The outbound of A connecting to B  </span>
+      <span class="token property">&quot;tag&quot;</span><span class="token operator">:</span><span class="token string">&quot;tunnel&quot;</span><span class="token punctuation">,</span> <span class="token comment">// The tag of outbound of A connecting to B, will be used in the following routing setting</span>
+      <span class="token property">&quot;protocol&quot;</span><span class="token operator">:</span><span class="token string">&quot;vmess&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;settings&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span>  
+        <span class="token property">&quot;vnext&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  
+          <span class="token punctuation">{</span>  
+            <span class="token property">&quot;address&quot;</span><span class="token operator">:</span><span class="token string">&quot;serveraddr.com&quot;</span><span class="token punctuation">,</span> <span class="token comment">// Address of B can be an IP or a domian</span>
+            <span class="token property">&quot;port&quot;</span><span class="token operator">:</span><span class="token number">16823</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;users&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  
+              <span class="token punctuation">{</span>  
+                <span class="token property">&quot;id&quot;</span><span class="token operator">:</span><span class="token string">&quot;b831381d-6324-4d53-ad4f-8cda48b30811&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;alterId&quot;</span><span class="token operator">:</span><span class="token number">64</span>
+              <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// Another outbound connect of the private cloud disk    </span>
+    <span class="token punctuation">{</span>  
+      <span class="token property">&quot;protocol&quot;</span><span class="token operator">:</span><span class="token string">&quot;freedom&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;settings&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span>  
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;tag&quot;</span><span class="token operator">:</span><span class="token string">&quot;out&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;routing&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span>  
+    <span class="token property">&quot;rules&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  
+      <span class="token punctuation">{</span>  
+      <span class="token comment">// Configure the routing rules for A connecting to B</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;field&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;inboundTag&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  
+          <span class="token string">&quot;bridge&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;domain&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  
+          <span class="token string">&quot;full:private.cloud.com&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;outboundTag&quot;</span><span class="token operator">:</span><span class="token string">&quot;tunnel&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>  
+      <span class="token comment">// The routing rules for reverse connection of private cloud disk</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;field&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;inboundTag&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  
+          <span class="token string">&quot;bridge&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;outboundTag&quot;</span><span class="token operator">:</span><span class="token string">&quot;out&quot;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>    
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="configuration-of-node-b"><a href="#configuration-of-node-b" class="header-anchor">#</a> Configuration of Node B</h3> <p>The configuration of B has only changed in the inbound section.</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span> 
+<span class="token property">&quot;reverse&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span> <span class="token comment">// This is the reverse proxy setting for B and must have the following portals object</span>
+<span class="token property">&quot;portals&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span> 
+<span class="token punctuation">{</span> 
+<span class="token property">&quot;tag&quot;</span><span class="token operator">:</span><span class="token string">&quot;portal&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;domain&quot;</span><span class="token operator">:</span><span class="token string">&quot;private.cloud.com&quot;</span> <span class="token comment">// must be the same as the domain name set by A above</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">&quot;inbounds&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+<span class="token punctuation">{</span> 
+<span class="token comment">// Accept C's inbound</span>
+<span class="token property">&quot;tag&quot;</span><span class="token operator">:</span><span class="token string">&quot;external&quot;</span><span class="token punctuation">,</span> <span class="token comment">// tag, used in routing</span>
+<span class="token property">&quot;port&quot;</span><span class="token operator">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+<span class="token comment">// Open port 80 for receiving external HTTP access </span>
+<span class="token property">&quot;settings&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span> 
+<span class="token property">&quot;clients&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span> 
+<span class="token punctuation">{</span> 
+<span class="token property">&quot;id&quot;</span><span class="token operator">:</span><span class="token string">&quot;a26efdb8-ef34-4278-a4e6-2af32cc010aa&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;alterId&quot;</span><span class="token operator">:</span><span class="token number">64</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token comment">// Another inbound that accepts a request initiated by A</span>
+<span class="token punctuation">{</span> 
+<span class="token property">&quot;tag&quot;</span><span class="token operator">:</span> <span class="token string">&quot;interconn&quot;</span><span class="token punctuation">,</span><span class="token comment">// Tag will used in routing</span>
+<span class="token property">&quot;port&quot;</span><span class="token operator">:</span><span class="token number">16823</span><span class="token punctuation">,</span>
+<span class="token property">&quot;protocol&quot;</span><span class="token operator">:</span><span class="token string">&quot;vmess&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;settings&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span> 
+<span class="token property">&quot;clients&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span> 
+<span class="token punctuation">{</span> 
+<span class="token property">&quot;id&quot;</span><span class="token operator">:</span><span class="token string">&quot;b831381d-6324-4d53-ad4f-8cda48b30811&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;alterId&quot;</span><span class="token operator">:</span><span class="token number">64</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token property">&quot;routing&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span> 
+<span class="token property">&quot;rules&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span> 
+<span class="token punctuation">{</span> <span class="token comment">// Routing rules, sent to A after receiving a C request</span>
+<span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;field&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;inboundTag&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span> 
+<span class="token string">&quot;interconn&quot;</span>
+<span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token property">&quot;outboundTag&quot;</span><span class="token operator">:</span><span class="token string">&quot;portal&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span> <span class="token comment">// Routing rules that let B recognize that this is a proactively initiated reverse proxy connection</span>
+<span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;field&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;inboundTag&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span> 
+<span class="token string">&quot;tunnel&quot;</span>
+<span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token property">&quot;domain&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span> 
+<span class="token string">&quot;full:private.cloud.com&quot;</span>
+<span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token property">&quot;outboundTag&quot;</span><span class="token operator">:</span><span class="token string">&quot;portal&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><code>Tips</code>: In the configuration B, you can use the same VMess inbound to accept requests from A and C to simplify configuration.</p> <h3 id="configuration-of-node-c"><a href="#configuration-of-node-c" class="header-anchor">#</a> Configuration of Node C</h3> <p>Same as with normal client configuration, the connected server is B, which is omitted here.</p> <h2 id="access"><a href="#access" class="header-anchor">#</a> Access</h2> <p>A, B, and C are all running V2Ray, and any network accessed by C is equivalent to access through A (C routing is not specially configured).</p> <h4 id="updates"><a href="#updates" class="header-anchor">#</a> Updates</h4> <ul><li>2018-11-01 Initial Version</li> <li>2018-01-13 V4.0+ Adaptation</li> <li>2019-07-15 Correction of <code>tag</code> term in the configuration of server B</li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">5/27/2020, 7:38:01 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/en_US/app/reverse.html" class="prev">
+        Reverse Proxy I
+      </a></span> <span class="next"><a href="/en_US/app/parent.html">
+        Forward Proxy
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d424c134.js" defer></script><script src="/assets/js/2.94c2ff94.js" defer></script><script src="/assets/js/16.cc88c7bf.js" defer></script>
+  </body>
+</html>
